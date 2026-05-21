@@ -1,0 +1,23 @@
+{
+  "project": "KuroNeko",
+  "version": "v1",
+  "plan": "300 Adimli Gelistirme Plani",
+  "current_step": 20,
+  "current_block": 1,
+  "current_section": "1.2",
+  "started_at": "2026-05-21T12:40:00+00:00",
+  "last_update": "2026-05-21T13:10:00+00:00",
+  "blocks": {
+    "block1": {"name": "Tokenizer", "range": "1-50", "status": "in_progress", "progress": 40},
+    "block2": {"name": "Veri Seti ve Hazirlik", "range": "51-125", "status": "pending", "progress": 0},
+    "block3": {"name": "Egitim Altyapisi", "range": "126-200", "status": "pending", "progress": 0},
+    "block4": {"name": "Ilk Egitim ve Test", "range": "201-250", "status": "pending", "progress": 0},
+    "block5": {"name": "Optimizasyon ve Deployment", "range": "251-300", "status": "pending", "progress": 0}
+  },
+  "completed_steps": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "errors": [],
+  "summaries": {
+    "1.1": "Tokenizer arastirmasi tamamlandi. BPE secildi, 64K vocab, 19 ozel token.",
+    "1.2": "Veri hazirlik arastirmasi tamamlandi. Scriptler yazildi (clean, dedup, quality)."
+  }
+}
