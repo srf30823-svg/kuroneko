@@ -232,7 +232,7 @@ class GroupedQueryAttention(nn.Module):
 
         self.dropout = nn.Dropout(config.dropout)
 
-    def _repeat_kv(self, x: torch.Tensor) -> nn.Module:
+    def _repeat_kv(self, x: torch.Tensor) -> torch.Tensor:
         """KV head'leri Q head sayisina genislet.
 
         Args:
