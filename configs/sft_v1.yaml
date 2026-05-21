@@ -1,0 +1,16 @@
+{
+  "data_path": "data/instruction/all_instruct.jsonl",
+  "model_path": "models/kuroneko-v1/step-final",
+  "output_dir": "models/kuroneko-v1-sft",
+  "batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "epochs": 3,
+  "learning_rate": 2e-5,
+  "weight_decay": 0.01,
+  "max_length": 2048,
+  "warmup_ratio": 0.03,
+  "checkpoint_every": 500,
+  "seed": 42,
+  "use_lora": true,
+  "lora_r": 16
+}

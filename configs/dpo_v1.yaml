@@ -1,0 +1,13 @@
+{
+  "data_path": "data/dpo/all_dpo.jsonl",
+  "model_path": "models/kuroneko-v1-sft/epoch-3",
+  "output_dir": "models/kuroneko-v1-dpo",
+  "batch_size": 2,
+  "epochs": 1,
+  "learning_rate": 5e-7,
+  "beta": 0.1,
+  "max_length": 2048,
+  "gradient_accumulation_steps": 4,
+  "checkpoint_every": 200,
+  "seed": 42
+}
